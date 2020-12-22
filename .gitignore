@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 ### Go ###
-=======
->>>>>>> 8618eae766b3ccfa03e88a16c2f448c604b07709
 # Binaries for programs and plugins
 *.exe
 *.exe~
@@ -17,7 +14,6 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
-<<<<<<< HEAD
 
 ### Go Patch ###
 /vendor/
@@ -127,5 +123,3 @@ fabric.properties
 .idea/codestream.xml
 
 # End of https://www.toptal.com/developers/gitignore/api/go,webstorm
-=======
->>>>>>> 8618eae766b3ccfa03e88a16c2f448c604b07709
