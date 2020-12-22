@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package server_streaming;
+option go_package = "github.com/JaimeRC/grpc-golang/server_streaming/proto";
+
+message CountdownRequest {
+  int32 Timer = 1;
+}
+
+message CountdownResponse{
+  int32 count = 1;
+}
+
+service Countdown{
+  rpc Start(CountdownRequest) returns (stream CountdownResponse){};
+}
