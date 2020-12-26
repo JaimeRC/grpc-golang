@@ -1,1 +1,17 @@
-package proto
+syntax = "proto3";
+
+package proto;
+option go_package = "github.com/JaimeRC/grpc-golang/bi_directional_streaming/proto";
+
+message FeedRequest {
+  string feed = 1;
+}
+
+message FeedResponse {
+  string feed = 1;
+}
+
+service Feeds {
+  // bi-directional rpc
+  rpc Broadcast(stream FeedRequest) returns (stream FeedResponse){};
+}
