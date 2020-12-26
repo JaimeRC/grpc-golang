@@ -109,7 +109,7 @@ En un RPC de transmisión bidireccional, el cliente inicia la llamada invocando 
 
 El procesamiento de secuencias del lado del cliente y del servidor es específico de la aplicación. Dado que los dos flujos son independientes, el cliente y el servidor pueden leer y escribir mensajes en cualquier orden. Por ejemplo, un servidor puede esperar hasta que haya recibido todos los mensajes de un cliente antes de escribir sus mensajes, o el servidor y el cliente pueden jugar "ping-pong": el servidor recibe una solicitud, luego envía una respuesta y luego el cliente envía otra solicitud basada en la respuesta, y así sucesivamente.
 
-**Código ejemplo:** [Vi-directional streaming](./bi_directional_streaming)
+**Código ejemplo:** [Bi-directional streaming](./bi_directional_streaming)
 
 **Inicializar:**
 - Servidor:
