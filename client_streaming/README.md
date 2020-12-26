@@ -1,4 +1,4 @@
-# gRPC: Client streaming
+# Client streaming RPC
 
 ## Ciclo de vida:
 
